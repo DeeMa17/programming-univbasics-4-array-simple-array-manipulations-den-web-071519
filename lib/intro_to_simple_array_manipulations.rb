@@ -33,5 +33,5 @@ def using_insert(array, another_language)
 end  
   
 def using_uniq(array)
-  array.uniq!(new_haircuts)
+  array.uniq!(array)
 end
