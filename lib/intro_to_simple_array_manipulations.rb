@@ -27,9 +27,8 @@ end
 def using_concat(array, more_favs)
   array.concat(more_favs)
 end
-
-def using_insert(array, another_language)
-  array.insert(4)
   
+def using_insert(array, another_language)
+  array.insert(4, another_language)
 end  
   
